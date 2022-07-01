@@ -1,0 +1,87 @@
+.contenedor1 {
+    background-color: #638A55
+}
+
+.contenedor2 {
+    background-color: #9BBA74
+}
+
+.contenedor3 {
+    background-color: #CDDB86 !important;
+}
+
+.contenedor4 {
+    background-color: #FCE7B2
+}
+
+.contenedor5 {
+    background-color: #E1D083
+}
+
+.contenedor6 {
+    background-color: #C48D60;
+}
+
+.contenedor7 {
+    background-color: beige;
+}
+.borde {
+    border: 1px solid black;
+}
+
+.colorful {
+    color: rgb(252, 231, 176) !important;
+}
+
+.colorful2 {
+    color:rgb(225, 208, 131) !important;
+}
+
+.pie {
+    background: #638A55 !important;
+    color: white !important;
+}
+
+
+#logo {
+    width: 60px;
+    height: 60px;
+    background: url(Imagenes/Logo.png);
+    font-size: 0;
+    position: absolute;
+    top: 13px;
+    left: 0.75rem;
+    z-index: 10;
+}
+
+@media screen and (max-width: 991px) {
+    #logo {
+        left: calc(50% - 30px)
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #logo {
+        width: 60px;
+        height: 60px;
+        background: url(Imagenes/Logo.png);
+        font-size: 0;
+        position: absolute;
+        top: 13px;
+        left: 0.75rem;
+        z-index: 10;
+    }
+}
+
+.carousel .carousel-item {
+    transition-property: transform;
+    transition-duration:0.6s;
+}
+
+@media screen and (max-width: 767px) {
+
+}
+
+.tamaño {
+    font-size: 1.1rem;
+}
